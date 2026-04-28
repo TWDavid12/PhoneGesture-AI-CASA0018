@@ -21,7 +21,3 @@ This project uses smartphone accelerometer data and Edge Impulse to classify thr
 ## Results
 
 After refining the tilt gesture to a consistent backward movement, the final model achieved 100% accuracy on validation and model testing. Live classification also correctly identified example idle, shake and tilt gestures.
-
-## Deployment
-
-The exported WebAssembly/Node.js deployment files are stored in `deployment_nodejs/`.
